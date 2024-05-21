@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of America |Online Banking|</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="section1">
+        <header id="header">
+            <div class="logo">
+                <img src="./BofA_rgb.png" alt="">
+            </div>
+            <div class="log-in">
+                <p>Log In</p> <i class="fa-solid fa-lock fa-sm" style="color: #838586;"></i><span>Secure Area</span>
+            </div>
+            <div class="en-esp">
+                <a href="#">En español</a>
+            </div>
+        </header>
+    
+        <section class="section1" id="section1">
+            <p>Log In to Online Banking</p>
+        </section>
+    
+        <section class="section2" id="loginForm">
+            <div class="loginpage"> <br> 
+                <label for="username" class="userID">User ID</label> <br> 
+                <input type="text" id="username" name="username"> <br>
+                <label for="" class="save"><i class="fa-regular fa-square fa-lg" style="color: #e2e2e4;"></i> Save this user ID</label> <br> <br> <br>
+                <label for="password" class="userID">Password</label> <br>
+                <input type="password" id="password" name="password"> <br> <br>
+                <label for="password" class="forgot">Forgot your password?</label> <br>
+                <button type="button" id="login"><i class="fa-solid fa-lock fa-sm" style="color: #ffffff;"></i> Log in</button>
+            </div>
+            <div class="boAimg">
+                <div class="stay">Stay connected with our app</div>
+                <div class="boaImg">
+                    <img src="./mobile_llama.png" alt="">
+                </div>
+                <div class="get"><p>Secure, convenient <br> banking anytime</p> <br>
+                    <a href="#"><button>Get the app</button></a>
+                </div>
+            </div>
+            <div class="login-help">
+                <div class="help">Login help</div>
+                <div class="not-using"> 
+                    <a href="">Forgot ID/Password?</a> <br> <br>
+                    <a href="">Problem logging in?</a> <br> <br> <br>
+                    <p>Not using Online Banking?</p> 
+                </div>
+                <div class="enrol"> <br>
+                    <a href="">Enroll now</a> <br> <br>
+                    <a href="">Learn more about Online Banking</a> <br> <br>
+                    <a href="">Service Agreement</a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section3" id="section3">
+            <footer>
+                <div class="secure"> <i class="fa-solid fa-lock fa-sm" style="color: #838586;"></i> Secure area</div>
+                <div class="privacy">
+                    <div class="priv">Privacy</div>
+                    <div class="priv">Security</div>
+                    <div class="your">Your Privacy Choices</div>
+                </div>
+                <div class="bank">Bank of America, N.A. Member FDIC. <a href="">Equal Housing Lender <i class="fa-solid fa-house-user fa-sm" style="color: #656667;"></i></a> <br> © 2024 Bank of America Corporation.</div>
+            </footer>
+        </section>
+    </section>
+
+    <section class="section4" id="section4">
+        <div class="navBar">
+            <div class="bar"><i class="fa-solid fa-bars fa-xl" style="color: #e9eaed;"></i></div>
+            <div class="acct">Accounts</div>
+            <div class="sign-out" onclick="signout()"><i class="fa-solid fa-lock fa-sm" style="color: #e9eaed;"></i> <a href="#">Sign Out</a></div>
+        </div>
+        <div>
+            <button>
+                <a href="#">Bill Pay</a>
+            </button>
+            <button>
+                <a href="#">Transfers</a>
+            </button>
+            <button>
+                <a href="#">Deposit Checks</a>
+            </button>
+        </div>
+
+        <div>
+            <h2 id="greet"></h2>
+        </div>
+        
+        <div class="bank">Bank Accounts</div>
+            
+        <div class="balance">
+            <div class="log">
+                <a href="#"><img src="./2f9b195ba9069a509b41552b763f8c8c-removebg-preview.png" alt="logo"></a>
+            </div>
+            <div class="acct-name">
+                <a href="#"><p>Harry Business Checking....8635</p></a>
+                <a href="#"><span>$683,293.28</span></a>
+            </div>
+            <div class="arrow"><a href="#">›</a></div>
+        </div>
+
+        <div class="balance">
+            <div class="log">
+                <a href="#"><img src="./2f9b195ba9069a509b41552b763f8c8c-removebg-preview.png" alt="logo"></a>
+            </div>
+            <div class="acct-name">
+                <a href="#"><p>Harry Personal Checking....3242</p></a>
+                <a href="#"><span>$313,123.78</span></a>
+            </div>
+            <div class="arrow"><a href="#">›</a></div>
+        </div>
+
+        <div class="balance">
+            <div class="log">
+                <a href="#"><img src="./2f9b195ba9069a509b41552b763f8c8c-removebg-preview.png" alt="logo"></a>
+            </div>
+            <div class="acct-name">
+                <a href="#"><p>Harry Savings....3625</p></a>
+                <a href="#"><span>$253,793.18</span></a>
+            </div>
+            <div class="arrow"><a href="#">›</a></div>
+        </div>
+        
+        <div class="open"><i class="fa-solid fa-plus fa-lg" style="color: #0077be;"></i> <a href="#">Open a New Account</a></div>
+        <div>
+            <div class="footer">
+                <div class="secur"> <i class="fa-solid fa-lock fa-sm" style="color: #838586;"></i> Secure area</div>
+                <div class="privac">
+                    <div class="priva">Privacy</div>
+                    <div class="priva">Security</div>
+                    <div class="yourPri">Your Privacy Choices</div>
+                </div>
+                <div class="bankOf">Bank of America, N.A. Member FDIC. <a href="">Equal Housing Lender<i class="fa-solid fa-house-user fa-sm" style="color: #656667;"></i></a> <br> © 2024 Bank of America Corporation.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section5">
+        <div class="navb">
+            <div class="arrow"><a href="#">‹</a></div>
+            <div class="log">
+                <img src="./2f9b195ba9069a509b41552b763f8c8c-removebg-preview.png" alt="logo">
+            </div>
+            <div class="inbox"><a href="#"><i class="fa-regular fa-envelope fa-xl" style="color: gray;"></i> <br> <p>Inbox</p></a></div>
+            <div class="signout"><a href="#"><i class="fa-solid fa-arrow-right-from-bracket fa-xl" style="color: gray;"></i> <br> <p>Log Out</p></a> </div>
+        </div>
+        <h1>Good Morning Eric</h1>
+        <div class="acctinfo">
+            <h2>Eric Business Checking....8635</h2>
+            <span>$183,293.28</span>
+            <p>Available balance</p>
+        </div> -->
+
+        <!-- <div class="transaction">
+            djhsd
+        </div>
+        <div class="foot">
+            <div class="recent"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> -->
+    <!-- </section> -->
+    
+
+    <section id="section6">
+        <header id="header">
+            <div class="logo">
+                <img src="./BofA_rgb.png" alt="">
+            </div>
+            <div class="log-in">
+                <p>Log In</p> <i class="fa-solid fa-lock fa-sm" style="color: #838586;"></i><span>Secure Area</span>
+            </div>
+            <div class="en-esp">
+                <a href="#">En español</a>
+            </div>
+        </header>
+    
+        <section class="section1" id="section1">
+            <p>Log In to Online Banking</p>
+        </section>
+    
+        <section class="section2" id="loginForm">
+            <div class="loginpage"> <br> 
+                <label for="username" class="userID">User ID</label> <br> 
+                <input type="text" id="username" name="username"> <br>
+                <label for="" class="save"><i class="fa-regular fa-square fa-lg" style="color: #e2e2e4;"></i> Save this user ID</label> <br> <br> <br>
+                <label for="password" class="userID">Password</label> <br>
+                <input type="password" id="password" name="password"> <br> <br>
+                <label for="password" class="forgot">Forgot your password?</label> <br>
+                <button type="button" id="login"><i class="fa-solid fa-lock fa-sm" style="color: #ffffff;"></i> Log in</button>
+            </div>
+            <div class="boAimg">
+                <div class="stay">Stay connected with our app</div>
+                <div class="boaImg">
+                    <img src="./mobile_llama.png" alt="">
+                </div>
+                <div class="get"><p>Secure, convenient <br> banking anytime</p> <br>
+                    <a href="#"><button>Get the app</button></a>
+                </div>
+            </div>
+            <div class="login-help">
+                <div class="help">Login help</div>
+                <div class="not-using"> 
+                    <a href="">Forgot ID/Password?</a> <br> <br>
+                    <a href="">Problem logging in?</a> <br> <br> <br>
+                    <p>Not using Online Banking?</p> 
+                </div>
+                <div class="enrol"> <br>
+                    <a href="">Enroll now</a> <br> <br>
+                    <a href="">Learn more about Online Banking</a> <br> <br>
+                    <a href="">Service Agreement</a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="section3" id="section3">
+            <footer>
+                <div class="secure"> <i class="fa-solid fa-lock fa-sm" style="color: #838586;"></i> Secure area</div>
+                <div class="privacy">
+                    <div class="priv">Privacy</div>
+                    <div class="priv">Security</div>
+                    <div class="your">Your Privacy Choices</div>
+                </div>
+                <div class="bank">Bank of America, N.A. Member FDIC. <a href="">Equal Housing Lender <i class="fa-solid fa-house-user fa-sm" style="color: #656667;"></i></a> <br> © 2024 Bank of America Corporation.</div>
+            </footer>
+        </section>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
